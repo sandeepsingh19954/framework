@@ -17,7 +17,7 @@ public class ReadPDF {
 	@Test(priority=4)
 	public void TestPDF() throws IOException{
 		
-		URL pdfUrl = new URL("file:///C:/Users/SA953418/Downloads/ELSS_FY%202021-22.pdf/");
+		URL pdfUrl = new URL("file:///C:/Users/SA953418/Downloads/ELSS_FY%202021-22.pdf");
 		InputStream in = pdfUrl.openStream();
 		BufferedInputStream bf = new BufferedInputStream(in);
 		PDDocument doc = PDDocument.load(bf);
