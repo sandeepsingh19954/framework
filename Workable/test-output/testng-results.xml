@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37" started-at="2022-02-25T08:46:17Z" finished-at="2022-02-25T08:46:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37" started-at="2022-02-25T08:46:17Z" finished-at="2022-02-25T08:46:17Z">
+      <class name="Script.links">
+        <test-method status="PASS" signature="addsum()[pri:1, instance:Script.links@59f99ea]" name="addsum" duration-ms="15" started-at="2022-02-25T14:16:17Z" finished-at="2022-02-25T14:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addsum -->
+        <test-method status="PASS" signature="repeatremoval()[pri:2, instance:Script.links@59f99ea]" name="repeatremoval" duration-ms="2" started-at="2022-02-25T14:16:17Z" finished-at="2022-02-25T14:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repeatremoval -->
+      </class> <!-- Script.links -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
